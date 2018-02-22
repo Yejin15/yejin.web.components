@@ -1,0 +1,36 @@
+{
+  "name": "yejin.components",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "npm run-script test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yejin15/yejin.components.git"
+  },
+  "keywords": [
+    "web",
+    "components"
+  ],
+  "author": "Yejin15",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yejin15/yejin.components/issues"
+  },
+  "homepage": "https://github.com/Yejin15/yejin.components#readme"
+,
+
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "0.9.8",
+    "serve-favicon": "~2.4.5"
+  }
+}
